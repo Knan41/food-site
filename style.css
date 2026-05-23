@@ -49,6 +49,13 @@
   font-weight: 700;
   display: grid;
 }
+.deli img {
+  filter: sepia(0%) saturate(0%);
+}
+.deli:hover img {
+  filter: none;
+  transition: 1s;
+}
 .location {
   font-size: 18px;
   align-items: center;
@@ -62,7 +69,7 @@
   font-size: 18px;
 }
 .location img {
-  width: 10px;
+  width: 12px;
   height: 15px;
   margin-left: 12px;
   margin-right: 9px;
